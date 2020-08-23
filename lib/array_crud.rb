@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["Bacon", "Eggs", "Cheese"]
-  array << "Bagel"
+  array << "#{element}"
   puts array.inspect
 end
 
