@@ -8,9 +8,9 @@ end
 
 def add_element_to_end_of_array(array, element)
   ["Mason", "Draco", "Layla"]
-  add_element_to_end_of_array.push ("Mango")
-  puts add_element_to_end_of_array.inspect
 end
+add_element_to_end_of_array.push ("Mango")
+puts add_element_to_end_of_array.inspect
 
 def add_element_to_start_of_array(array, element)
 
